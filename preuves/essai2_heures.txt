@@ -1,0 +1,2 @@
+﻿/tp1-resilience-web1-1  Arret: 2026-10-13T06:36:45.01270189Z  Redemarrage: 2026-10-13T06:37:49.624084526Z
+/tp1-resilience-web2-1  Arret: 2026-10-13T06:36:44.99555306Z  Redemarrage: 2026-10-13T06:37:48.886254517Z

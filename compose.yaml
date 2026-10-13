@@ -1,0 +1,22 @@
+name: tp1-resilience
+
+services:
+  web1:
+    image: nginx:stable-alpine
+    volumes:
+      - ./web1:/usr/share/nginx/html:ro
+
+  web2:
+    image: nginx:stable-alpine
+    volumes:
+      - ./web2:/usr/share/nginx/html:ro
+
+  proxy:
+    image: haproxy:3.2-alpine
+    ports:
+      - "127.0.0.1:8088:80"
+    volumes:
+      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    depends_on:
+      - web1
+      - web2

@@ -1,0 +1,11 @@
+﻿
+proxy-1  | 2026-10-12T14:57:55.085675978Z Server serveurs_web/web1 is DOWN, reason: Layer4 timeout, check duration: 1001ms. 1 
+active and 0 backup servers left. 1 sessions active, 0 requeued, 0 remaining in queue.
+proxy-1  | 2026-10-12T14:57:55.086017600Z [WARNING]  (8) : Server serveurs_web/web1 is DOWN, reason: Layer4 timeout, check 
+duration: 1001ms. 1 active and 0 backup servers left. 1 sessions active, 0 requeued, 0 remaining in queue.
+proxy-1  | 2026-10-12T14:58:30.840259273Z [WARNING]  (8) : Server serveurs_web/web1 is UP, reason: Layer7 check passed, code: 200, 
+check duration: 9ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+proxy-1  | 2026-10-12T14:58:30.840275724Z Server serveurs_web/web1 is UP, reason: Layer7 check passed, code: 200, check duration: 
+9ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+
+
